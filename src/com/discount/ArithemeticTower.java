@@ -3,8 +3,13 @@ package com.discount;
 public class ArithemeticTower {
     public static void main(String[] args) {
 
-        long number = 202103;
+        int number = 20;
 
+        makeTower(number);
+
+    }
+
+    public static void makeTower(int number) {
         System.out.println(number);
         for (int i = 2; i < 10; i++) {
             System.out.println(number + " * " + i);
